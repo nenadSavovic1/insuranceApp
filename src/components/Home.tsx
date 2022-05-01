@@ -151,6 +151,7 @@ const Home: React.FC = () => {
           formulas.map((formula) => {
             return (
               <Formula
+                key={formula.id}
                 makeName={formula.makeName}
                 modelName={formula.modelName}
                 year={formula.year}
