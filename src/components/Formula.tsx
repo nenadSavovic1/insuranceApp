@@ -31,7 +31,7 @@ const Formula = ({
         return (
           <div className="bg-white w-96 shadow rounded-2xl px-8 flex flex-col h-auto place-content-center">
             <h1 className="text-black mb-8 mt-8 text-2xl">
-              Are you sure you want to delete this formula?
+              Are you sure you want to delete this insurance offer?
             </h1>
             <div className="flex justify-around mb-12">
               <button

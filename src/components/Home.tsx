@@ -72,6 +72,14 @@ const Home: React.FC = () => {
 
   const btnDisabled = isFormValid(formik.values);
 
+  if (!carBrands.length) {
+    return (
+      <div className="flex justify-center items-center mt-32 p-8">
+        <h1 className="animate-bounce font-bold text-2xl">Loading...</h1>
+      </div>
+    );
+  }
+
   return (
     <div className="h-auto w-screen flex items-center justify-center relative">
       <div className="flex-row lg:w-11/12 sm:w-auto lg:ml-20 lg:mt-40 z-20 sm:mt-20 ">
