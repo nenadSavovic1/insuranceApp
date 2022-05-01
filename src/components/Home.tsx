@@ -14,7 +14,7 @@ import {
 } from "../constants";
 import Formula from "./Formula";
 import CustomSelect from "./CustomSelect";
-import img from "./car_graphic.jpg";
+import img from "./car_graphic2.jpg";
 
 const Home: React.FC = () => {
   const [carBrands, setCarBrands] = useState<ICarBrand[]>([]);
