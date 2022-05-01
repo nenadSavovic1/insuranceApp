@@ -74,17 +74,17 @@ const Home: React.FC = () => {
 
   return (
     <div className="h-auto w-screen flex items-center justify-center relative">
-      <div className="flex-row lg:w-11/12 sm:w-auto lg:ml-20 z-20 sm:mt-20 ">
+      <div className="flex-row lg:w-11/12 sm:w-auto lg:ml-20 lg:mt-40 z-20 sm:mt-20 ">
         <div className="lg:w-1/2 h-20 lg:text-6xl sm:text-4xl text-red-500">
           We Make Insurance Easy!
         </div>
 
         <div className="lg:text-2xl sm:text-xl h-20  lg:mb-10 sm:mb-4">
-          Create your risk formula by entering vehicle data in the form below
+          By entering vehicle data in the form below get your insurance offer
           <p className="animate-bounce">&darr;</p>
         </div>
         <form onSubmit={formik.handleSubmit}>
-          <div className="lg:w-5/5  lg:h-40 sm:h-64 lg:flex lg:items-center lg:content-center lg:justify-around sm:justify-center sm:flex sm:items-center rounded-lg bg-gradient-to-l from-gray-200 to-transparent">
+          <div className="lg:w-11/12 lg:h-40 sm:h-64 lg:flex lg:items-center lg:content-center lg:justify-around sm:justify-center sm:flex sm:items-center rounded-lg bg-gradient-to-l from-gray-200 to-transparent">
             <div className="lg:flex lg:justify-around lg:mb-0 w-4/5">
               <CustomSelect
                 name={formFields.makeName}
@@ -167,7 +167,7 @@ const Home: React.FC = () => {
       </div>
 
       <img
-        className="lg:w-2/5 sm:w-3/4 sm:bottom-16 absolute top-8 right-8 sm:opacity-70 lg:opacity-80"
+        className="lg:w-2/5 sm:w-3/4 sm:bottom-16 absolute top-16 right-8 sm:opacity-70 lg:opacity-80"
         src={img}
       />
     </div>

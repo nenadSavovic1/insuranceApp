@@ -75,7 +75,7 @@ const Formula = ({
                 Risk: {risk}
               </li>
               <li>
-                Comparison char:{" "}
+                Comparison character:{" "}
                 <span className="font-bold">{yearComparisonType}</span>
               </li>
             </ul>
