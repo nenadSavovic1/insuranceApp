@@ -4,7 +4,7 @@
 yarn
 ```
 
-## Development
+## For development and starting the app
 
 ```sh
 yarn dev
